@@ -41,9 +41,11 @@ public class Dashboard extends MainTest {
 
 	// This is JenkinTestFiles;
 
-	@FindBy(xpath = ".//*[@id='AvailableProcedures']/div/div/div/div[3]/div[2]/ul/li[9]/div/ul/li[17]/div/div/div[1]")
+//	@FindBy(xpath = ".//*[@id='AvailableProcedures']/div/div/div/div[3]/div[2]/ul/li[9]/div/ul/li[17]/div/div/div[1]")
+	@FindBy(xpath = ".//*[@id='AvailableProcedures']/div/div/div/div[3]/div[2]/ul/li[8]/div/ul/li[17]/div/div/div[1]")
 	@CacheLookup
 	private WebElement TestProcedure;
+	
 
 	// this is OneOfEachVersion4 procedure
 

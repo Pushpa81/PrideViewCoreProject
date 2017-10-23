@@ -5,7 +5,6 @@
     <classes>
       <class name="com.PrideViewTests.SampleTests">
         <methods>
-          <include name="openBrs"/>
           <include name="runProcedure"/>
         </methods>
       </class> <!-- com.PrideViewTests.SampleTests -->

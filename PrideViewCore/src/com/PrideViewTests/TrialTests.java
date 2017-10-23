@@ -56,6 +56,7 @@ public class TrialTests extends MainTest {
 	public void finishProcedure(){
 		Dashboard db = new Dashboard(driver);
 		db.runProcedure();
+		driver.switchTo().frame("procedureFrame");
 		driver.findElement(By.id("exitButton")).click();
 		driver.findElement(By.id("menuFinish")).click();
 		driver.findElement(By.cssSelector("button.submit btn btn-success")).click();
@@ -89,5 +90,15 @@ public class TrialTests extends MainTest {
 // }
 
 // }
+	
+//	this is to check all the checkboxes in the procedure
+//	private void ClickAllCheckboxes()
+//	{
+//	    foreach (IWebElement e in driver.FindElements(By.xpath("//input[@type='checkbox']")))
+//	    {
+//	        if(!e.Selected)
+//	            e.Click();
+//	    }
+//	}
 
  }

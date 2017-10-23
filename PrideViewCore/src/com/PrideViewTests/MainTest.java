@@ -12,7 +12,7 @@ WebDriver driver;
 	
 	@BeforeTest
 	public void openBrowser() {
-		String baseUrl = "https://prideview-core.traclabs.com/";
+		String baseUrl = "https://prideview-core-rc.traclabs.com/";
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\TRACLabs\\Documents\\Selenium\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();

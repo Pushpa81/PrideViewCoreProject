@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24542" started-at="2017-09-26T19:05:22Z" finished-at="2017-09-26T19:05:47Z">
+  <suite name="Default suite" duration-ms="17166" started-at="2017-10-21T20:58:13Z" finished-at="2017-10-21T20:58:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24542" started-at="2017-09-26T19:05:22Z" finished-at="2017-09-26T19:05:47Z">
+    <test name="Default test" duration-ms="17166" started-at="2017-10-21T20:58:13Z" finished-at="2017-10-21T20:58:30Z">
       <class name="com.PrideViewTests.SampleTests">
-        <test-method status="PASS" signature="openBrs()[pri:0, instance:com.PrideViewTests.SampleTests@7c16905e]" name="openBrs" is-config="true" duration-ms="7125" started-at="2017-09-26T14:05:22Z" finished-at="2017-09-26T14:05:29Z">
+        <test-method status="PASS" signature="openBrs()[pri:0, instance:com.PrideViewTests.SampleTests@7c16905e]" name="openBrs" is-config="true" duration-ms="6024" started-at="2017-10-21T15:58:13Z" finished-at="2017-10-21T15:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrs -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.PrideViewTests.SampleTests@7c16905e]" name="validLogin" duration-ms="4055" started-at="2017-09-26T14:05:29Z" finished-at="2017-09-26T14:05:33Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.PrideViewTests.SampleTests@7c16905e]" name="validLogin" duration-ms="3396" started-at="2017-10-21T15:58:19Z" finished-at="2017-10-21T15:58:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="runProcedure()[pri:1, instance:com.PrideViewTests.SampleTests@7c16905e]" name="runProcedure" duration-ms="13347" started-at="2017-09-26T14:05:33Z" finished-at="2017-09-26T14:05:47Z">
+        <test-method status="PASS" signature="runProcedure()[pri:1, instance:com.PrideViewTests.SampleTests@7c16905e]" name="runProcedure" duration-ms="7735" started-at="2017-10-21T15:58:23Z" finished-at="2017-10-21T15:58:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runProcedure -->
